@@ -7,7 +7,7 @@ import {
   DefaultToCMarkdownCustomInlineComponents,
 } from '@codedoc/core';
 
-import { formulaPlugin } from '@codedoc/core/components';
+import { Loading, formulaPlugin } from '@codedoc/core/components';
 import { guessTitle } from '@codedoc/core/transport';
 
 import { theme } from './theme';
@@ -66,6 +66,7 @@ export const config = /*#__PURE__*/configuration({
       Card,
     },
     customInlineComponents: {
+      Loading,
       ...DefaultMarkdownCustomInlineComponents,
       ...DefaultToCMarkdownCustomInlineComponents,
       Tag,

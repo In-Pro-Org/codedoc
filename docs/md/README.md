@@ -76,7 +76,7 @@
 
 - [<span style="color:yellow">Knowledge</span>](/docs/Knowledge/Knowledge)
   - [<span style="color:red">ML</span>](/docs/Knowledge/ML/ML)
-    - [<span style="color:green">Build KnowledgeBase</span>](</docs/Knowledge/ML/How%20FI%20FTurned%20FMy%20FCompanys%20FDocs%20Finto%20Fa%20FSearchable%20FDatabase%20Fwith%20FOpenAI>)
+    - [<span style="color:green">Build KnowledgeBase</span>](</docs/Knowledge/ML/How I Turned My Companys Docs into a Searchable Database with OpenAI>)
   - [<span style="color:#4da6ff">PowerShell</span>](/docs/Knowledge/PowerShell/PowerShell.md)
     - [<span style="color:#7d7dff">Fast FileContent Search</span>](https://www.leeholmes.com/scour-fast-personal-local-content-searches/)
     - [<span style="color:#ff8040">PSWriteHTML</span>](/docs/Knowledge/PowerShell/PSWriteHTML)
@@ -140,9 +140,9 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 
 ##### 3.1.2.1 [Best Practices](</docs/Knowledge/Veeam/Best%20FPractices/index>)
 
-##### 3.1.2.2 [NAS Backup - GFS To Tape](</docs/Knowledge/Veeam/NAS%20Fbackup%20F-%20FGFS%20FTo%20FTape/NAS%20Fbackup%20F-%20FGFS%20Fto%20FTape%20F-%20FPart%20FI>)
+##### 3.1.2.2 [NAS Backup - GFS To Tape](</docs/Knowledge/Veeam/NAS backup - GFS To Tape/NAS backup - GFS to Tape - Part I>)
 
-##### 3.1.2.3 [How to Design and Implement a Backup System Based on SLA Policies](</docs/Knowledge/Veeam/How%20Fto%20FDesign%20Fand%20FImplement%20Fa%20FBackup%20FSystem/Veeam%20FHow%20Fto%20FDesign%20Fand%20FImplement%20Fa%20FBackup%20FSystem%20FBased%20Fon%20FSLA%20FPolicies%20F-%20FPart%20FI%20F-%20FDesign,%20FArchitecture,%20Fand%20FTagging%20Fin%20FvSphere>)
+##### 3.1.2.3 [How to Design and Implement a Backup System Based on SLA Policies](<docs/Knowledge/Veeam/How to Design and Implement a Backup System\Veeam How to Design and Implement a Backup System Based on SLA Policies - Part I - Design, Architecture, and Tagging in vSphere>)
 
 #### 3.1.3 ML
 
@@ -171,10 +171,14 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 - [Relativty](<https://github.com/relativty/Relativty>)
 - [HadesVR](<https://github.com/HadesVR/HadesVR>)
 
+---
+
 ## 4. Links
 
 - [<span style="color:magenta">Links</span>](/docs/Links/LinksWiki): Links zu meinen Themen
 - [<span style="color:cyan">PSModulesHelp</span>](/docs/PSModulesHelp/ModuleDoku): :information_source: Help für PowerShell Module
+
+---
 
 ## 5. Wikies
   >
@@ -186,6 +190,8 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
   > - [Knowledge](<https://thamielis.github.io/Knowledge>)
   > - [Dokumentation](<https://thamielis.github.io/Dokumentation/>)
   > - [PSKnowledge](https://thamielis.github.io/PSKnowledge/ClassExplorer/gasm.html)
+
+---
 
 ## 6. Wichtig
 >
