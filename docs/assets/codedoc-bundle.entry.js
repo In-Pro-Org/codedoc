@@ -1,6 +1,7 @@
 import { getRenderer } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/transport/renderer.js';
 import { initJssCs } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/transport/setup-jss.js';initJssCs();
 import { installTheme } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/content/theme.ts';installTheme();
+import { zoomOnFormula } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/formula/zoom-on-formula.js';zoomOnFormula();
 import { codeSelection } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/selection.js';codeSelection();
 import { sameLineLengthInCodes } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/same-line-length.js';sameLineLengthInCodes();
 import { initHintBox } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/line-hint/index.js';initHintBox();
@@ -15,22 +16,22 @@ import { postNavSearch } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/nod
 import { copyLineLinks } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/footnote/gather-footnotes.js';gatherFootnotes();
 import { reloadOnChange } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/serve/reload.js';reloadOnChange();
-import { ToCPrevNext } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js';
+import { CollapseControl } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js';
 import { GithubSearch } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/misc/github/search.js';
 import { ToCToggle } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/darkmode/index.js';
 import { ConfigTransport } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/transport/config.js';
+import { ToCPrevNext } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js';
 import { TabSelector } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/tabs/selector.js';
-import { CollapseControl } from 'C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js';
 
 const components = {
-  'r12xoysKRVuCPA7lAB3IQg==': ToCPrevNext,
+  'yAdNJkOJGbj52dvfV+HpdQ==': CollapseControl,
   'EKtVWhWp+AfK3O64A4+bOg==': GithubSearch,
   'wCsMx1XMyC4jNi3FxvjU4g==': ToCToggle,
   '6W59GcSTLBVXRr/Nl/rTkw==': DarkModeSwitch,
   'zKXJ5zf13oJGCwAAI3JIIA==': ConfigTransport,
-  'kxbJABEnOX94b9g36ic5aw==': TabSelector,
-  'yAdNJkOJGbj52dvfV+HpdQ==': CollapseControl
+  'r12xoysKRVuCPA7lAB3IQg==': ToCPrevNext,
+  'kxbJABEnOX94b9g36ic5aw==': TabSelector
 };
 
 const renderer = getRenderer();

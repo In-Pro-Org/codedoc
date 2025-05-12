@@ -11,6 +11,11 @@
       "hash": "ARU9aRKR/r7W+6fvR2gBAw=="
     },
     {
+      "name": "zoomOnFormula",
+      "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/formula/zoom-on-formula.js",
+      "hash": "vj378MQlOsWWEMXgiPkoHA=="
+    },
+    {
       "name": "codeSelection",
       "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/code/selection.js",
       "hash": "qG3B4X4xgQH9MoG8m98EYg=="
@@ -83,9 +88,9 @@
   ],
   "components": [
     {
-      "name": "ToCPrevNext",
-      "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js",
-      "hash": "r12xoysKRVuCPA7lAB3IQg=="
+      "name": "CollapseControl",
+      "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js",
+      "hash": "yAdNJkOJGbj52dvfV+HpdQ=="
     },
     {
       "name": "GithubSearch",
@@ -108,14 +113,14 @@
       "hash": "zKXJ5zf13oJGCwAAI3JIIA=="
     },
     {
+      "name": "ToCPrevNext",
+      "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/page/toc/prevnext/index.js",
+      "hash": "r12xoysKRVuCPA7lAB3IQg=="
+    },
+    {
       "name": "TabSelector",
       "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/tabs/selector.js",
       "hash": "kxbJABEnOX94b9g36ic5aw=="
-    },
-    {
-      "name": "CollapseControl",
-      "filename": "C:/Users/admmellunigm/GitHub/codedoc/.codedoc/node_modules/@codedoc/core/dist/es5/components/collapse/collapse-control.js",
-      "hash": "yAdNJkOJGbj52dvfV+HpdQ=="
     }
   ],
   "renderer": {

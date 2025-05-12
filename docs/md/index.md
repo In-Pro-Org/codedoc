@@ -9,4 +9,8 @@ and get instructions on how to change them. Also don't forget to check the offic
 > :Buttons
 > > :Button label=Official Docs, url=https://codedoc.cc
 
+## Examples
+
+And now lets use [Some Tags](:Tag) inside our text.
+
 > :ToCPrevNext

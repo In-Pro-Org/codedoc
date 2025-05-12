@@ -88,36 +88,36 @@
 ### 3.1 Dokuments
 
 #### 3.1.1 PowerShell
-
-- [X] [PSStringTemplate](<https://github.com/SeeminglyScience/PSStringTemplate>)
-- [ ] ChangelogManagement
-- [ ] Configuration
-- [ ] MarkdownLinkCheck
-- [ ] Metadata
-- [ ] Pester
-- [ ] Plaster
-- [ ] PSDepend
-- [ ] PSCodeHealth
-- [ ] PSCoverage
-- [ ] PSFunctionExplorer
-- [ ] ClassExplorer
-- [ ] PSClassUtils
-- [ ] EventLogConverter
-- [ ] FindFunctionCalls
-- [ ] Format-Markdown
-- [ ] GitHub
-- [ ] GitHubProvider
-- [ ] GitHubActions
-- [ ] HtmlToMarkdown
-- [ ] MarkdownEx
-
-- [ ] [ReportHTMLv2](<https://www.powershellgallery.com/packages/ReportHTMLV2/2.1>)
-
-- [ ] [DisplayConfig](<https://github.com/MartinGC94/DisplayConfig>)
-- [ ] [MonitorConfig](<https://github.com/MartinGC94/MonitorConfig>)
-- [ ] [MouseSettings](<https://github.com/MartinGC94/MouseSettings>)
-- [ ] [Registry](<https://github.com/MartinGC94/PSRegistry>)
-- [ ] [Split Collection](<https://github.com/MartinGC94/SplitCollection>)
+> :Collapse label=Modules
+> - [X] [PSStringTemplate](<https://github.com/SeeminglyScience/PSStringTemplate>)
+> - [ ] ChangelogManagement
+> - [ ] Configuration
+> - [ ] MarkdownLinkCheck
+> - [ ] Metadata
+> - [ ] Pester
+> - [ ] Plaster
+> - [ ] PSDepend
+> - [ ] PSCodeHealth
+> - [ ] PSCoverage
+> - [ ] PSFunctionExplorer
+> - [ ] ClassExplorer
+> - [ ] PSClassUtils
+> - [ ] EventLogConverter
+> - [ ] FindFunctionCalls
+> - [ ] Format-Markdown
+> - [ ] GitHub
+> - [ ] GitHubProvider
+> - [ ] GitHubActions
+> - [ ] HtmlToMarkdown
+> - [ ] MarkdownEx
+>
+> - [ ] [ReportHTMLv2](<https://www.powershellgallery.com/packages/ReportHTMLV2/2.1>)
+>
+> - [ ] [DisplayConfig](<https://github.com/MartinGC94/DisplayConfig>)
+> - [ ] [MonitorConfig](<https://github.com/MartinGC94/MonitorConfig>)
+> - [ ] [MouseSettings](<https://github.com/MartinGC94/MouseSettings>)
+> - [ ] [Registry](<https://github.com/MartinGC94/PSRegistry>)
+> - [ ] [Split Collection](<https://github.com/MartinGC94/SplitCollection>)
 
 - [<span style="color:#00ff00">PSGalleryArgumentCompleter</span>](<https://github.com/MartinGC94/UsefulArgumentCompleters>)
 
