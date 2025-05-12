@@ -53,20 +53,20 @@
 
 ## 2. Repos
 
-### [<span style ="color:cyan">2.1. PSModulesHelp</span>](PSModulesHelp/ModuleDoku.md)
+### [<span style ="color:cyan">2.1. PSModulesHelp</span>](/docs/PSModulesHelp/ModuleDoku)
 
-### [<span style="color:yellow">2.2. ReposWiki</span>](ReposWiki/ReposWiki.md)
-  Alle GitHub Repositories
+### [<span style="color:yellow">2.2. ReposWiki</span>](/docs/ReposWiki/ReposWiki)
+  > Alle GitHub Repositories
 
-#### [<span style="color:yellow">2.2.1. Meine Repos</span>](ReposWiki/Repositories.md)
-  <span style="color:cyan">*Meine Programmierungen*</span>
+#### [<span style="color:yellow">2.2.1. Meine Repos</span>](/docs/ReposWiki/Repositories)
+  > <span style="color:cyan">*Meine Programmierungen*</span>
 
 ##### 2.2.1.1. Analyse/Visualize
 
 - [PSVisualizer](<https://github.com/In-Pro-Org/PSVisualizer>)
   > Erstellen eines Mermaid Diagramms vom Ablauf eines PowerShell Scripts
 
-#### [2.2.2. Kostwein](/%2F/Kostwein.md)
+#### [2.2.2. Kostwein](/docs/Kostwein)
 
 ##### 2.2.2.1. ConfigurationManager
 
@@ -74,16 +74,16 @@
 
 ## 3. Knowledge
 
-- [<span style="color:yellow">Knowledge</span>](Knowledge/Knowledge.md)
-  - [<span style="color:red">ML</span>](Knowledge/ML/ML.md)
-    - [<span style="color:green">Build KnowledgeBase</span>](<Knowledge/ML/How I Turned My Companys Docs into a Searchable Database with OpenAI.md>)
-  - [<span style="color:#4da6ff">PowerShell</span>](Knowledge/PowerShell/PowerShell.md)
+- [<span style="color:yellow">Knowledge</span>](/docs/Knowledge/Knowledge)
+  - [<span style="color:red">ML</span>](/docs/Knowledge/ML/ML)
+    - [<span style="color:green">Build KnowledgeBase</span>](</docs/Knowledge/ML/How%20FI%20FTurned%20FMy%20FCompanys%20FDocs%20Finto%20Fa%20FSearchable%20FDatabase%20Fwith%20FOpenAI>)
+  - [<span style="color:#4da6ff">PowerShell</span>](/docs/Knowledge/PowerShell/PowerShell.md)
     - [<span style="color:#7d7dff">Fast FileContent Search</span>](https://www.leeholmes.com/scour-fast-personal-local-content-searches/)
-    - [<span style="color:#ff8040">PSWriteHTML</span>](Knowledge/PowerShell/PSWriteHTML)
-      - [<span style="color:cyan">Nested Tabs</span>](<Knowledge/PowerShell/PSWriteHTML/Nested Tabs, Diagram Updates, Diagram Events, Calendar Object and more in PSWriteHTML.md>)
+    - [<span style="color:#ff8040">PSWriteHTML</span>](/docs/Knowledge/PowerShell/PSWriteHTML)
+      - [<span style="color:cyan">Nested Tabs</span>](</docs/Knowledge/PowerShell/PSWriteHTML/Nested%20FTabs,%20FDiagram%20FUpdates,%20FDiagram%20FEvents,%20FCalendar%20FObject%20Fand%20Fmore%20Fin%20FPSWriteHTML>)
     
-  - [<span style="color:cyan">Mermaid</span>](Knowledge/Mermaid/Mermaid.md)
-    - [<span style="color:cyan">Examples</span>](Knowledge/Mermaid/MermaidOnGitHubExamples.md)
+  - [<span style="color:cyan">Mermaid</span>](/docs/Knowledge/Mermaid/Mermaid)
+    - [<span style="color:cyan">Examples</span>](/docs/Knowledge/Mermaid/MermaidOnGitHubExamples)
 
 ### 3.1 Dokuments
 
@@ -122,12 +122,11 @@
 - [<span style="color:#00ff00">PSGalleryArgumentCompleter</span>](<https://github.com/MartinGC94/UsefulArgumentCompleters>)
 
 #### 3.1.1.0 Snippets to use with PSStringTemplate
+  > - [ ] [Snippets](<https://github.com/MartinGC94/Snippets>)
 
-- [ ] [Snippets](<https://github.com/MartinGC94/Snippets>)
+##### 3.1.1.1 [<span style="color:#ff8040">Explore .NET Assemblies</span>](/Explore_dotNETAssemblies)
 
-##### 3.1.1.1 [<span style="color:#ff8040">Explore .NET Assemblies</span>](Explore_dotNETAssemblies.md)
-
-##### 3.1.1.2 [PowerShell References](PowerShell-References.md)
+##### 3.1.1.2 [PowerShell References](/PowerShell-References)
 
 ##### 3.1.1.3 [Active Directory Reports](<https://github.com/jdhitsolutions/ADReportingTools>)
 
@@ -139,17 +138,17 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 
 #### 3.1.2 <span style="color:green">Veeam</span>
 
-##### 3.1.2.1 [Best Practices](<Knowledge/Veeam/Best Practices/index.md>)
+##### 3.1.2.1 [Best Practices](</docs/Knowledge/Veeam/Best%20FPractices/index>)
 
-##### 3.1.2.2 [NAS Backup - GFS To Tape](<Knowledge/Veeam/NAS backup - GFS To Tape/NAS backup - GFS to Tape - Part I.md>)
+##### 3.1.2.2 [NAS Backup - GFS To Tape](</docs/Knowledge/Veeam/NAS%20Fbackup%20F-%20FGFS%20FTo%20FTape/NAS%20Fbackup%20F-%20FGFS%20Fto%20FTape%20F-%20FPart%20FI>)
 
-##### 3.1.2.3 [How to Design and Implement a Backup System Based on SLA Policies](<Knowledge/Veeam/How to Design and Implement a Backup System/Veeam How to Design and Implement a Backup System Based on SLA Policies - Part I - Design, Architecture, and Tagging in vSphere.md>)
+##### 3.1.2.3 [How to Design and Implement a Backup System Based on SLA Policies](</docs/Knowledge/Veeam/How%20Fto%20FDesign%20Fand%20FImplement%20Fa%20FBackup%20FSystem/Veeam%20FHow%20Fto%20FDesign%20Fand%20FImplement%20Fa%20FBackup%20FSystem%20FBased%20Fon%20FSLA%20FPolicies%20F-%20FPart%20FI%20F-%20FDesign,%20FArchitecture,%20Fand%20FTagging%20Fin%20FvSphere>)
 
 #### 3.1.3 ML
 
 ### 3.2 Algorithmen
 
-- [<span style="color:rgb(241, 82, 220)">Algorithmen</span>](/%2F/Algorithmen.md)
+- [<span style="color:rgb(241, 82, 220)">Algorithmen</span>](/Algorithmen)
   - [<span style="color:rgb(241, 82, 220)">Awesome Algorithms</span>](<https://github.com/tayllan/awesome-algorithms>)
   - [<span style="color:rgb(241, 82, 220)">The Ultimate Topic List(with Tutorials, Problems, and Templates)</span>](<https://blog.shahjalalshohag.com/topic-list/>)
 
@@ -174,8 +173,8 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 
 ## 4. Links
 
-- [<span style="color:magenta">Links</span>](Links/LinksWiki.md): Links zu meinen Themen
-- [<span style="color:cyan">PSModulesHelp</span>](PSModulesHelp/ModuleDoku.md): :information_source: Help für PowerShell Module
+- [<span style="color:magenta">Links</span>](/docs/Links/LinksWiki): Links zu meinen Themen
+- [<span style="color:cyan">PSModulesHelp</span>](/docs/PSModulesHelp/ModuleDoku): :information_source: Help für PowerShell Module
 
 ## 5. Wikies
   >
@@ -192,7 +191,7 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 >
 >[!warning]
 >***PowerShell***
->[PowerShell](<Links/PowerShell Links.md>)
+>[PowerShell](</docs/Links/PowerShell%20FLinks>)
 >>**gMSA**
 >>>[Using gMSA for Remoting](<Knowledge/PowerShell/gMSA/Using Group Managed Service Accounts (gMSAs) for PowerShell Remoting.md>)
 >>
@@ -203,6 +202,6 @@ New-ADGroupReport -Name 'PaloAlto*' -ReportTitle 'PaloAlto_Internet ADGroups' -E
 >>[Mein Repo to Wiki Script](https://github.com/thamielis/PSRepoOverview)
 >
 >**Veeam**
->>[Veeam](Links/Veeam.md)
+>>[Veeam](/docs/Links/Veeam)
 >>[Backup Infra erstellen](<https://jorgedelacruz.uk/2020/03/09/veeam-how-to-design-and-implement-a-backup-system-based-on-sla-policies-part-i-design-architecture-and-tagging-in-vsphere>)
 >

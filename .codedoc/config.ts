@@ -11,7 +11,10 @@ import { formulaPlugin } from '@codedoc/core/components';
 import { guessTitle } from '@codedoc/core/transport';
 
 import { theme } from './theme';
+import { Card } from './components/card';
 import { Tag } from './components/tag';         // --> import the tag component itself
+//import { CopyButton } from './components/copy-button';
+
 
 export const config = /*#__PURE__*/configuration({
   theme,                                  // --> add the theme. modify `./theme.ts` for changing the theme.
@@ -27,7 +30,24 @@ export const config = /*#__PURE__*/configuration({
     title: {
       base: 'Codedoc'                     // --> the base title of your doc pages
     },
-    favicon: '/docs/images/KostweinLogo.ico'
+    favicon: '/docs/images/KostweinLogo.ico',
+    fonts: {
+      text: {
+        url: 'https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap', 
+        name: 'Roboto',
+        fallback: 'sans-serif'
+      },
+      code: {
+        url: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400&display=swap',
+        name: 'Source Code Pro',         // --> name of the font used for codes
+        fallback: "'Courier New', Courier, monospace" // --> fallback font for codes  
+      }
+    },
+    post: [
+      (html, file) => {
+        html.body.setAttribute('data-path', file.path);
+      }
+    ]
   },
   misc: {
     github: {
@@ -41,7 +61,9 @@ export const config = /*#__PURE__*/configuration({
   markdown: {
     customComponents: {
       ...DefaultMarkdownCustomComponents,
-      ...DefaultToCMarkdownCustomComponents
+      ...DefaultToCMarkdownCustomComponents,
+      //CopyButton,  // --> add the CopyButton component
+      Card,
     },
     customInlineComponents: {
       ...DefaultMarkdownCustomInlineComponents,
@@ -49,4 +71,6 @@ export const config = /*#__PURE__*/configuration({
       Tag,
     }
   },
+
+  
 });

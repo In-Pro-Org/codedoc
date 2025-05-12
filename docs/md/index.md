@@ -11,6 +11,19 @@ and get instructions on how to change them. Also don't forget to check the offic
 
 ## Examples
 
+### Tags
 And now lets use [Some Tags](:Tag) inside our text.
+
+### Copy Code
+
+```powershell
+Import-Module PSWriteHTML
+Import-Module PSClassUtil
+```
+> :Buttons
+>> :CopyButton
+
+> :Card
+> > Test
 
 > :ToCPrevNext
