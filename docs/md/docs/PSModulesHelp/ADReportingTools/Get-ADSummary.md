@@ -25,7 +25,7 @@ This simple command will give you a snapshot-sized summary of your Active Direct
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADSummary
 
 

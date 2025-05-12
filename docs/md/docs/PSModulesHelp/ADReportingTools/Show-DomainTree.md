@@ -28,7 +28,7 @@ NOTE: This command will only run in a console host session. It will **not** run 
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Show-DomainTree
 
 DC=Company,DC=Pri
@@ -69,7 +69,7 @@ Output will color-coded using ANSI escape sequences.
 
 ### Example 2
 
-```dos
+```shell
 PS C:\> PS C:\> Show-DomainTree -usedn
 
 DC=Company,DC=Pri

@@ -34,7 +34,7 @@ Output will be color-coded using ANSI escape sequences.
 
 ### Example 1
 
-```dos
+```shell
 
 PS C:\> Get-ADDomainControllerHealth
 
@@ -59,7 +59,7 @@ Output might be color-coded. A ServiceAlert value of True will be displayed in R
 
 ### Example 2
 
-```dos
+```shell
 PS C:\> Get-ADDomainControllerHealth | Format-Table -view info
 
 
@@ -81,7 +81,7 @@ Get domain controller health using a custom table view.
 
 ### Example 3
 
-```dos
+```shell
 PS C:\> Get-ADDomainControllerHealth | Select-Object -Expand Services
 
 

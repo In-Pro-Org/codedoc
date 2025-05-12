@@ -24,7 +24,7 @@ This command will present a summary of commands in the ADReportingTools module g
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADReportingTools
 ```
 

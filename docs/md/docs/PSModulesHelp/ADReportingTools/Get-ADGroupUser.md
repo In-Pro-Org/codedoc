@@ -25,7 +25,7 @@ This command will display all users of a given Active Directory group. The searc
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADGroupUser sales
 
 
@@ -54,7 +54,7 @@ Disabled accounts will have their distinguished name displayed in red.
 
 ### Example 2
 
-```dos
+```shell
 PS C:\> Get-ADGroupUser sales | format-list
 
 

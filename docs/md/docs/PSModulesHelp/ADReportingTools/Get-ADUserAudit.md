@@ -30,7 +30,7 @@ You may need to enable logging and/or increase the size of the Security event lo
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> get-aduseraudit -Events Created -Since 2/1/2021
 
 

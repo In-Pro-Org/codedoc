@@ -25,7 +25,7 @@ This command will display a summary report of each Active Directory site.
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADSiteSummary
 
 

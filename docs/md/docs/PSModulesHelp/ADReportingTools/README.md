@@ -79,7 +79,7 @@ The output will show you the user accounts that match the search criteria, and t
 
 `Get-ADUserCategory` is based on the concept of getting user information from a pre-defined category. For example, you might want to get the properties DisplayName, Name, Title, Department, and Manager for a Department category. The ADReportingTools module will define a set of pre-defined categories that you can reference through `$ADUserReportingConfiguration`.
 
-```dos
+```shell
 PS C:\> $ADUserReportingConfiguration
 
 Name         Properties
@@ -101,7 +101,7 @@ $ADUserReportingConfiguration += [pscustomobject]@{Name="Custom";Properties="Dis
 
 Or add a property to an existing category.
 
-```dos
+```shell
 PS C:\> $ADUserReportingConfiguration.where({$_.name -eq 'basic'}).foreach({$_.properties+="SID"})
 PS C:\> Get-ADUserCategory gladysk -Category Basic
 
@@ -133,7 +133,7 @@ Disabled accounts will be displayed in red. Or you can use one of the custom vie
 
 This command will take an Active Directory distinguishedname and break it down into its component elements. The command does not test or verify any of the elements. It is merely parsing a text string.
 
-```dos
+```shell
 PS C:\> Split-DistinguishedName "CN=Foo,OU=Bar,OU=Oz,DC=Research,DC=Globomantics,DC=com"
 
 
@@ -344,7 +344,7 @@ Currently, only AD User objects have been extended.
 
 These extensions have been grouped as a property set called *Names*.
 
-```dos
+```shell
 PS C:\>Get-ADUser artd | Select-Object Names
 
 DN             : CN=ArtD,OU=IT,DC=Company,DC=Pri

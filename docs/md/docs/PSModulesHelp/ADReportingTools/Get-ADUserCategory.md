@@ -50,7 +50,7 @@ You don't have to remember what property names to include or reference.
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADUserCategory artd -Category basic
 
 
@@ -66,7 +66,7 @@ WhenChanged       : 3/11/2021 6:32:58 PM
 
 ### Example 2
 
-```dos
+```shell
 PS C:\> Get-ADUserCategory -filter "department -eq 'sales'" -Category Department
 
 
@@ -94,7 +94,7 @@ Manager           : CN=SonyaS,OU=Sales,DC=Company,DC=Pri
 
 ### Example 3
 
-```dos
+```shell
 PS C:\> $ADUserReportingConfiguration += [pscustomobject]@{Name="Custom";Properties="DisplayName","Description"}
 PS C:\> Get-ADUserCategory -filter "givenname -like 'a*'" -Category custom
 

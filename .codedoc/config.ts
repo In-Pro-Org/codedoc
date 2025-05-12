@@ -1,5 +1,13 @@
 
-import { configuration } from '@codedoc/core';
+import { 
+  configuration,
+  DefaultMarkdownCustomComponents,
+  DefaultMarkdownCustomInlineComponents,
+  DefaultToCMarkdownCustomComponents,
+  DefaultToCMarkdownCustomInlineComponents,
+} from '@codedoc/core';
+
+import { guessTitle } from '@codedoc/core/transport';
 
 import { theme } from './theme';
 
@@ -12,7 +20,8 @@ export const config = /*#__PURE__*/configuration({
   page: {
     title: {
       base: 'Codedoc'                     // --> the base title of your doc pages
-    }
+    },
+    favicon: '/images/KostweinLogo.ico'
   },
   misc: {
     github: {

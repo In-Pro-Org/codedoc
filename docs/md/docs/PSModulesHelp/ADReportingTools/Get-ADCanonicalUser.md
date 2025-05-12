@@ -29,7 +29,7 @@ There is an assumption that you will know the domain controller responsible for 
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> Get-ADCanonicalUser company\gladysk -Properties title,description,department
 
 
@@ -52,7 +52,7 @@ Get the Active Directory user account for Company\Gladysk and some select proper
 
 ### Example 2
 
-```dos
+```shell
 PS C:\> $a = Get-ADUserAudit -Since "2/1/2021" -Events Disabled
 PS C:\> $a.targets | Get-Unique | Get-ADCanonicalUser |
 Select-Object DistinguishedName

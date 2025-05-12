@@ -25,7 +25,7 @@ This command will display all FSMO role holders for the forest and domain at a g
 
 ### Example 1
 
-```dos
+```shell
 PS C:\> PS C:\> Get-ADFSMO
 
 
